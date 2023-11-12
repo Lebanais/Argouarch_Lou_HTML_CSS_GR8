@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+}
+body{
+    display: flex;
+    background-color: chocolate;
+}
+nav{
+    width:fit-content;
+    background-color: brown;
+}
+header{
+    text-align: center;
+    font-size: 300%;
+}
+#video{
+    text-align: center;
+    margin-top: 5%;
+}
+#apres{
+    display: flex;
+}
+#postal{
+    display: flex;
+    flex-wrap: wrap;
+    height: 40%;
+    width: 40%;
+}
+#bleu{
+    height: 50%;
+    width: 50%;
+}
+#vert{
+    height: 50%;
+    width: 50%;
+}
+#pluit{
+    height: 50%;
+    width: 50%;
+}
+#rouge{
+    height: 50%;
+    width: 50%;
+}
+#information{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    width: 50%;
+}
+#resume{
+    height: 40%;
+    width:100%;
+    background-color: brown;
+}
+#disponibilite{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 100%;
+    background-color: rgb(114, 29, 29);
+    font-size: 150%;
+}
+#nintendo{
+    height: 25%;
+    width: 50%;
+}
+#playstation{
+    height: 25%;
+    width: 50%;
+}
+#xbox{
+    height: 25%;
+    width: 50%;
+}
+footer{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 150%;
+}
+h1{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+a{
+    margin-top: 10%;
+    color: aliceblue;
+    font-size: 120%;
+}
+@media all and (max-device-width: 480px)
+{
+    h2{
+        font-size: 90%;
+    }
+    h1{
+        font-size: 90%;
+    }
+    #studio{
+        width: 50%;
+    }
+    #video{
+        display: none;
+    }
+    #apres{
+        align-items: center;
+        margin: 2%;
+    }
+    
+}
+@media screen and (min-width: 1024px){
+    h2{
+        font-size: 200%;
+    }
+    header{
+        font-size: 200%;
+    }
+    footer{
+        font-size: 150%;
+    }
+    #postal{
+        margin: 10%;
+    }
+    nav{
+        font-size: 200%;
+    }
+
+}

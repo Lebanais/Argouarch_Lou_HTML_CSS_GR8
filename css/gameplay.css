@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+}
+body{
+    display: flex;
+    background-color: chocolate;
+}
+nav{
+    background-color: brown;
+}
+header{
+    text-align: center;
+}
+#commande{
+    margin-top: 10%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#manette{
+    margin-left: 10%;
+}
+#clavier{
+    width: 50%;
+}
+#jeu{
+    margin-top: 10%;
+    text-align: center;
+}
+#commentaire{
+    background-color: brown;
+    padding: 2%;
+}
+#image{
+    display: flex;
+    margin-top: 5%;
+    background-color: brown;
+    padding: 2%;
+}
+#corde{
+    width: 70%;
+}
+#radio{
+    width: 70%;
+}
+
+
+footer{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+a{
+    margin-top: 10%;
+    color: aliceblue;
+}
+@media all and (max-device-width: 480px)
+{
+    #manette{
+        width: 40%;
+    }
+    h2{
+        font-size: 80%;
+    }
+    #studio{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1024px){
+    h2{
+        font-size: 200%;
+    }
+    header{
+        font-size: 200%;
+    }
+    footer{
+        font-size: 150%;
+    }
+    nav{
+        font-size: 200%;
+    }
+
+}

@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+}
+body{
+    display: flex;
+    background-color: chocolate;
+}
+nav{
+    background-color: brown;
+}
+header{
+    text-align: center;
+}
+#premier{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+}
+#colomne{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1%;
+    background-image: url("image/paysage.jpg");
+    background-size: cover;
+}
+#histoire{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: right;
+    padding: 10%;
+    width: 50%;
+    background-color: brown;
+}
+#visuel{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: right;
+    padding: 10%;
+    width: 40%;
+    background-color: brown;
+}
+#personnage{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: right;
+    padding: 10%;
+    width: 50%;
+    background-color: brown;
+}
+#lorem{
+    background-color: brown;
+    padding: 2%;
+}
+#presentation{
+    display: flex;
+    align-items: center;
+}
+#lorem2{
+    width: 50%;
+    background-color: brown;
+    padding: 5%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+#image{
+    display: flex;
+    flex-direction: column;
+}
+#tortue{
+    width: 70%;
+}
+#fleuve{
+    width: 70%;
+
+}
+h1{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+a{
+    margin-top: 10%;
+    color: aliceblue;
+    font-size: 120%;
+}
+footer{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (min-width: 1024px){
+    h2{
+        font-size: 200%;
+    }
+    header{
+        font-size: 200%;
+    }
+    footer{
+        font-size: 150%;
+    }
+    #postal{
+        margin: 10%;
+    }
+    nav{
+        font-size: 200%;
+    }
+
+}
+@media all and (max-device-width: 480px)
+{
+    #manette{
+        width: 40%;
+    }
+    h2{
+        font-size: 80%;
+    }
+    #studio{
+        width: 50%;
+    }}
